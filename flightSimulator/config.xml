@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_45" class="java.beans.XMLDecoder">
+ <object class="model.Config">
+  <void property="attributes">
+   <string>airspeed-indicator_indicated-speed-kt,altimeter_indicated-altitude-ft,altimeter_pressure-alt-ft,attitude-indicator_indicated-pitch-deg,attitude-indicator_indicated-roll-deg,attitude-indicator_internal-pitch-deg,attitude-indicator_internal-roll-deg,dme_indicated-distance-nm,dme_indicated-ground-speed-kt,dme_indicated-time-min,encoder_indicated-altitude-ft,encoder_pressure-alt-ft,gps_indicated-altitude-ft,gps_indicated-ground-speed-kt,gps_indicated-latitude-deg,gps_indicated-longitude-deg,gps_indicated-track-magnetic-deg,gps_indicated-track-true-deg,gps_indicated-vertical-speed,gps_odometer,gps_trip-odometer,heading-indicator_offset-deg,heading-indicator_spin,heading-indicator-fg_offset-deg,magnetic-compass_indicated-heading-deg,slip-skid-ball_indicated-slip-skid,turn-indicator_indicated-turn-rate,vertical-speed-indicator_indicated-speed-fpm,flight_aileron,flight_elevator,flight_rudder,flight_flaps,flight_slats,flight_BLC,flight_spoilers,flight_speedbrake,flight_wing-sweep,flight_wing-fold,flight_drag-chute,engines_throttle_idle,engine_throttle,engine_starter,engine_fuel-pump,engine_fire-switch,engine_fire-bottle-discharge,engine_cutoff,engine_mixture,engine_propeller-pitch,engine_magnetos,engine_WEP,engine_cowl-flaps-norm,engine_ignition,engine_augmentation,engine_reverser,engine_water-injection,engine_condition,system_engine-pump,system_electric-pump,pneumatic_APU-bleed,engine_bleed,position_altitude-agl-ft,position_altitude-ft,position_ground-elev-ft,position_ground-elev-m,position_sea-level-radius-ft,orientation_alpha-deg,orientation_heading-deg,orientation_heading-magnetic-deg,orientation_pitch-deg,orientation_pitch-rate-degps,orientation_roll-deg,orientation_roll-rate-degps,orientation_side-slip-deg,orientation_side-slip-rad,orientation_yaw-rate-degps,velocities_airspeed-kt,velocities_groundspeed-kt,velocities_mach,velocities_speed-north-fps,velocities_speed-east-fps,velocities_speed-down-fps,velocities_uBody-fps,velocities_vBody-fps,velocities_wBody-fps,velocities_vertical-speed-fps,velocities_glideslope,accelerations_nlf,ned_north-accel-fps_sec,ned_east-accel-fps_sec,ned_down-accel-fps_sec,pilot_x-accel-fps_sec,pilot_y-accel-fps_sec,pilot_z-accel-fps_sec,engine_cht-degf,engine_cranking,engine_egt-degf,engine_fuel-consumed-lbs,engine_fuel-flow-gph,engine_fuel-flow_pph,engine_mp-inhg,engine_mp-osi,engine_oil-pressure-psi,engine_oil-temperature-degf,engine_out-of-fuel,engine_rpm,engine_running,engine_thrust_lb</string>
+     </void>
+  <void property="delimiter">
+   <string>,</string>
+  </void>
+  <void property="fileName">
+   <string>names.csv</string>
+  </void>
+  <void property="nValues">
+   <int>50</int>
+  </void>
+  <void property="viewAttributes">
+  <string>Altitude,Heading Spin,Speed,Pitch°,Yaw,Roll°,</string>
+  </void>
+  <void property="modelPort">
+  <int>12302</int>
+  </void>
+  <void property="joystickPort">
+  <int>12222</int>
+  </void>
+  <void property="ip">
+  <string>127.0.0.1</string>
+  </void>
+  <void property="flightEnginesPath">
+  <string>controls[0]/engines[0]/engine[0]/</string>
+  </void>
+   <void property="flightControlPath">
+  <string>controls[0]/flight[0]/</string>
+  </void>
+ </object>
+</java>
